@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="StoredProcedure.ToCallStoredProcedure">
+      <class name="StoredProcedure.ToTestAStoredFunction">
         <methods>
-          <include name="setup"/>
-          <include name="testProcedure"/>
           <include name="teardown"/>
+          <include name="testProcedure"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- StoredProcedure.ToCallStoredProcedure -->
+      </class> <!-- StoredProcedure.ToTestAStoredFunction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
